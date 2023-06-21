@@ -1,7 +1,8 @@
 <html>
 <h1>BEM VINDO</h1>
 <figure class="imagem">
-    <img src="imagens/colorida.jpg">
+    <img src="imagem/>
+
 </figure>
 </body>
 </html>
