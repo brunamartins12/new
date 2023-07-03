@@ -58,6 +58,42 @@
                         <option value="RS">Rio Grande do Sul</option>
                     </optgroup>
                 </select>
+                <p>
+                    <label for="cidade">Cidade:</label> 
+                    <input type="text" id="cidade" placeholder="Digite sua cidade." maxlength="300">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <p>
+                    <label for="urgencia">Grau de urgência:</label>
+                    Mínimo <input type="range" id="urgencia" min="0" max="10" step="2"> Máximo
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" placeholder="Digite sua mensagem:" cols="30" rows="3" >
+                    </textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Preferências</legend>
+                <p>
+                    <input type="checkbox" id="Rock" checked="checked">
+                    <label for="rock">Rock</label>
+                    
+                </p>
+                <p>
+                    <input type="checkbox" id="sertanejo">
+                    <label for="sertanejo">Sertanejo</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="mpb">
+                    <label for="mpb">MPB</label>
+                </p>
+                <p>
+                    <label for="cor">Cor:</label>
+                    <input type="color" id="cor" value="#0000ff">
+                </p>
 
         </fieldset>
     </form>
