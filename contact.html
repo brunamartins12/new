@@ -40,6 +40,24 @@
                 <label for="rua">Rua:</label> 
                 <input type="text" id="rua" placeholder="Digite sua Rua." maxlength="400">
             </p>
+            <p>
+                <label for="numero">Numero:</label> 
+                <input type="number" id="numero" min="0" max="99999">
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
 
         </fieldset>
     </form>
